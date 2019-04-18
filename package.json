@@ -1,0 +1,22 @@
+{
+  "name": "jest-screenshot-base64-reporter",
+  "version": "1.0.0",
+  "description": "Report failing screenshot tests with base64 for using in CI without access to locally created diff image files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest",
+    "screenshot",
+    "base64",
+    "reporter",
+    "ci"
+  ],
+  "repository": "https://github.com/darksmile/jest-screenshot-base64-reporter",
+  "author": "mykyta.shyrin@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "base64-img": "^1.0.4"
+  }
+}
